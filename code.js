@@ -2,7 +2,7 @@ function abc() {
     var images= ["family.jpeg","family2.jpeg","family3.jpeg"];
     var picname= ["Manasa ", "Roshni", "Praveen"];
     currentpic = document.getElementById('familypic');
-    alert(currentpic);
+    //alert(currentpic);
     if (currentpic.src.match("family.jpeg")){
         currentpic.src= images[1];
         document.getElementById('name').innerHTML= picname[1];
